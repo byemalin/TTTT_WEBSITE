@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--CSS Linking-->
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/script.js"></script>
+    <!--Tab Title-->
+    <title>TTTT</title>
+
+
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+        </script>
+
+
+
+
+</head>
+
+<body onload=display_ct();>
+
+    
+    
+    <div class="main_body">
+
+        <div class="spinning_logo">
+            <img class="THREE_D_TTTT_image" src="Assets/img/TTTT_3D_spinning_logo_1.gif">
+        </div>
+        
+        
+        
+        <div class= "narrow_body">
+
+           
+
+            <br>
+            <br>
+
+
+        <span id='ct'></span>
+        
+
+       <h2>Collective Consciousness</h2>
+       <p>Rocco</p>
+
+        <p>Not long ago I read an article about German-American psychologist Wolfgang Köhler, who conducted a study in 1929 where they asked different populations (Tamil speakers in India, Tenerifeans, young children, infants, and American university students) to decide which shape fit “takete” and which fit “baluba”. 
+            In all the cases, it was agreed that the shape with the rounded ends should be named “baluba”, and the shape with the sharp ends, “takete”. 
+            I think It’s interesting to think, how natural our collective (in)consciousness actually is, and how design and ergonomy are fully rooted in these human brain tendencies. I guess we’re really humans after all.</p>
+        
+        <img class="feed_post_image" src="Assets/img/collective_cons.jpg">
+
+            <p>(28.11.21 07:25 Paris, France)</p>
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
