@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+}
+.main_body {
+  width: 100%;
+  height: 100%;
+  padding: 2vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.narrow_body {
+  width: 50%;
+  /* background-color: brown; */
+  height: 100%;
+  padding: 2vh;
+}
+
+.feed_post_image {
+  width: 70%;
+}
+
+.THREE_D_TTTT_image {
+  width: 100%;
+  height: 100%;
+}
+
+.spinning_logo {
+  /* background-color: cadetblue; */
+
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 6vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+}
+
+#ct {
+  background-color: rgb(233, 235, 123);
+}
