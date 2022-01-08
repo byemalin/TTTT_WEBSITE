@@ -20,7 +20,8 @@ body {
 }
 
 .feed_post_image {
-  width: 70%;
+  width: 40%;
+  align-self: center;
 }
 
 .THREE_D_TTTT_image {
