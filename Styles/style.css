@@ -8,20 +8,28 @@ body {
   padding: 2vh;
   /* background-color: blueviolet; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 0;
 }
 
 .narrow_body {
-  width: 50%;
+  width: 50vw;
   /* background-color: brown; */
   height: 100%;
   padding: 2vh;
+  /* align-self: center; */
+  /* position: absolute; */
 }
 
 .feed_post_image {
   width: 40%;
   align-self: center;
+}
+
+.left_bar {
+  /* background-color: yellow; */
+  width: 400px;
+  height: 700px;
 }
 
 .THREE_D_TTTT_image {
@@ -34,13 +42,45 @@ body {
 
   width: 300px;
   height: 300px;
-  position: absolute;
-  left: 6vw;
+  /* position: relative; */
+  /* left: 5vw; */
   display: flex;
   justify-content: center;
   padding: 1vw;
 }
 
+.navigation {
+  width: 300px;
+  height: 300px;
+  /* background-color: bisque; */
+}
+
 #ct {
   background-color: rgb(233, 235, 123);
+}
+.post_date {
+  font-style: italic;
+  text-align: right;
+}
+
+audio {
+  width: 500px;
+  height: 54px;
+}
+
+.audio_player_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.audio_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+pre {
+  font-family: "Times New Roman", Times, serif;
 }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--CSS Linking-->
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/script.js"></script>
+    <!--Tab Title-->
+    <title>TTTT RADIO</title>
+
+
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+        </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVB33XLETY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FVB33XLETY');
+</script>
+
+
+
+
+
+</head>
+
+<body onload=display_ct();>
+
+    
+            <!-- Main Artificial Body -->
+    <div class="main_body"> 
+
+        <div class="left_bar">
+            <div class="spinning_logo">
+                <img class="THREE_D_TTTT_image" src="Assets/img/ttttradio.gif">
+            
+            </div>
+    
+            <div class='navigation'>
+                <br>
+                <a href="index.html">home</a>
+            </div>
+    
+            </div>
+        
+        
+        <!--Div for the narrow section of the page (50% width centered)-->
+        <div class= "narrow_body">
+
+            <br>
+            <br>
+
+            <!-- This is for the live date: (defined in the script tag in the header above)-->
+        <span id='ct'></span> 
+       
+
+
+                        <!-- GLOBAL STYLES ABOVE THIS -->
+
+
+<br>
+<br>
+ <h2>TTTT Radio Ep. 1  (Necessary Circumstances) </h2>
+
+   <pre> Pipp - Rocco</pre>
+
+ <div class="audio_player_div">
+
+ <audio id="player" src="Assets/audio/TTTT_RADIO_FINAL_EP1.mp3" controls>
+    <!-- <source  type="audio_file_type"> -->
+</audio>
+</div>
+<div class= "audio_buttons"> 
+    <button onclick="document.getElementById('player').play()">Play</button> 
+    <button onclick="document.getElementById('player').pause()">Pause</button> 
+    <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+    <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+  </div>
+
+  <h3>TRACKLIST</h3>
+
+<pre>Arthur Verocai “Na boca do sol”
+    
+Jiro Inagaki & Soul Media “Funky Stuff”
+    
+Sound of New York “When boys talk” 
+    
+Pet Shop Boys “West end girls”
+    
+Pipp “Got no clue” 
+    
+Camille Yarbrough “Take Yo’ Praise”
+    
+Lucki “4 ever ever”
+    
+03 Greedo “Sweet lady”
+    
+D Savage “Pill”
+    
+Billy Boyo “One spliff a day”
+    
+Curumin “Mistério stereo”
+    
+Pipp “Tensure” 
+    
+Lucky Dragons “Music for no reason”
+    
+Miles Davis “So what”
+    
+(30.01.22 18:39:22)</pre>
+  
+
+  
+
+ </div>
+ </div>
+
+
+ </body>
+ </html>
+ 

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--CSS Linking-->
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/script.js"></script>
+    <!--Tab Title-->
+    <title>TTTT</title>
+
+
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+        </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVB33XLETY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FVB33XLETY');
+</script>
+
+
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+<script>
+    var myFP = fluidPlayer(
+        'video-id', {
+    "layoutControls": {
+        "controlBar": {
+            "autoHideTimeout": 3,
+            "animated": true,
+            "autoHide": true
+        },
+        "htmlOnPauseBlock": {
+            "html": null,
+            "height": null,
+            "width": null
+        },
+        "autoPlay": false,
+        "mute": true,
+        "allowTheatre": true,
+        "playPauseAnimation": false,
+        "playbackRateEnabled": false,
+        "allowDownload": false,
+        "playButtonShowing": false,
+        "fillToContainer": false,
+        "posterImage": ""
+    },
+    "vastOptions": {
+        "adList": [],
+        "adCTAText": false,
+        "adCTATextPosition": ""
+    }
+});
+</script>
+
+
+
+
+
+
+</head>
+
+<body onload=display_ct();>
+
+    
+            <!-- Main Artificial Body -->
+    <div class="main_body"> 
+
+        <!-- Div for the spinning 3D logo -->
+        <div class="spinning_logo">
+            <img class="THREE_D_TTTT_image" src="Assets/img/TTTT_3D_spinning_logo_1.gif">
+        </div>
+        
+        
+        <!--Div for the narrow section of the page (50% width centered)-->
+        <div class= "narrow_body">
+
+            <br>
+            <br>
+
+            <!-- This is for the live date: (defined in the script tag in the header above)-->
+        <span id='ct'></span> 
+       
+
+ <p>Rocco</p>
+
+ <img class="feed_post_image" src="Assets/img/roccos_head.gif">
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Experimenting with embedding custom video player::-->
+
+    
+
+
+
+</body>
+
+</html>
