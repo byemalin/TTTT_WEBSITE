@@ -26,6 +26,11 @@ body {
   align-self: center;
 }
 
+.YoutubePost {
+  width: 100%;
+  height: 305px;
+}
+
 .left_bar {
   /* background-color: yellow; */
   width: 400px;
