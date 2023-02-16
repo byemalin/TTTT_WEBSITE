@@ -9,7 +9,7 @@ function preload() {
 function setup() {
   let cnv = createCanvas(400, 400, WEBGL);
   cnv.parent('narrow_body');
-  normalMaterial();
+  //normalMaterial();
 }
 function draw() {
   background(255);
