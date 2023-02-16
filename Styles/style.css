@@ -2,6 +2,36 @@
   border: red solid 1px;
 } */
 
+.gifContainer{
+    left: 100vw;
+    width: 20vw;
+    height:100%;
+    position:absolute;
+
+    animation: moveGlobe 6s ease-in-out 1;
+
+    display: flex;
+    align-items: center;
+}
+
+@keyframes moveGlobe {
+    0%{
+        left: 100vw;
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+    80%{
+        left: -31vw;
+        transform: scale(1);
+    }
+    100%{
+        left: -31vw;
+        transform: scale(1);
+    }
+}
+
 body {
   overflow-x: hidden;
   padding: 0;
